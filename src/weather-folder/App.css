@@ -1,1 +1,47 @@
+.container{
+    max-width: 700vw;
+   height: 650px;
+   padding: 0 2rem;
+   top: 10%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  
+  }
  
+  .description{
+    right: -95%;
+    font-weight: 600;
+    transform-origin: 0 0;
+    line-height: 36px;
+    transform: rotate(270deg);
+    position: relative;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(228, 242, 255,0.3);
+}
+  .bold{
+      font-weight: 700;
+  }
+  .search {
+      text-align: center;
+      padding: 1rem;
+  }
+  input{
+      padding: .7rem 1.5rem;
+      color: aliceblue;
+       font-size: 1.2rem;
+      border-radius: 24px;
+      border:1px solid rgba(255, 255, 255 , 0.9);
+      background: rgba(255, 255, 255 , 0.1);
+  }
+  ::placeholder{
+      color: rgb(255, 255, 255);
+  }
